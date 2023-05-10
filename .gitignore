@@ -2,3 +2,5 @@
 /.idea
 # 环境
 /node_modules
+# 构建
+/docs/.vuepress/dist

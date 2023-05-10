@@ -1,5 +1,16 @@
 {
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "markdown-it-katex": "^2.0.3",
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "scripts": {
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs",
+    "docs:nav": "vuepress nav docs"
+  },
+  "dependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "vuepress-sidebar-atuo": "^1.0.4"
   }
 }
